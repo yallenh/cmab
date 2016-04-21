@@ -5,7 +5,10 @@
   "content_scripts": [{
       "all_frames": false,
       "css": ["style.css"],
-      "matches": [ "<all_urls>" ]
+      "matches": [
+        "https://us-mg5.mail.yahoo.com/*", 
+        "https://mg.mail.yahoo.com/*"
+      ]
     }],
   "manifest_version": 2
 }
