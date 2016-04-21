@@ -1,0 +1,10 @@
+#main #theAd {
+  position: absolute;
+  left: -1000px;
+}
+#main #shellcontent {
+  right: 10px;
+}
+.yui3-feedback {
+  display: none
+}

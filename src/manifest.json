@@ -1,0 +1,11 @@
+{
+  "name": "CorpMail AdBlocker",
+  "description": "CorpMail AdBlocker",
+  "version": "2.0",
+  "content_scripts": [{
+      "all_frames": false,
+      "css": ["style.css"],
+      "matches": [ "<all_urls>" ]
+    }],
+  "manifest_version": 2
+}
